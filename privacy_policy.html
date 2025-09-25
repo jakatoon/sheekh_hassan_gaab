@@ -3,95 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Sheekh Xasan Gaab Tafseer</title>
+    <title>Privacy Policy - Sheekh Xasan Gaab Tafsiir</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        /* --- General Styles --- */
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7f6;
             color: #333;
-            background-color: #f4f7f9;
             margin: 0;
             padding: 20px;
+            line-height: 1.8;
         }
+
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
             background-color: #ffffff;
-            padding: 30px;
+            padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
         }
-        h1, h2 {
-            color: #0d47a1; /* Dark Blue */
-            border-bottom: 2px solid #1976d2; /* Medium Blue */
-            padding-bottom: 10px;
-        }
-        h1 {
+
+        /* --- Header --- */
+        .header {
             text-align: center;
-            font-size: 2em;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
         }
-        p {
-            margin-bottom: 1em;
+
+        .header .icon {
+            font-size: 48px;
+            color: #007BFF;
+            margin-bottom: 10px;
         }
-        strong {
-            color: #1565c0; /* Strong Blue */
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #007BFF;
+            margin: 0;
+            font-weight: 700;
         }
-        ul {
-            padding-left: 20px;
+
+        .header p {
+            font-size: 1.1em;
+            color: #666;
+            margin-top: 5px;
         }
-        li {
-            margin-bottom: 0.5em;
+
+        /* --- Section Styles --- */
+        .section {
+            margin-bottom: 35px;
         }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .section-header .icon {
+            font-size: 24px;
+            color: #007BFF;
+            background-color: #e6f2ff;
+            padding: 10px;
+            border-radius: 50%;
+            margin-right: 15px;
+            width: 50px;
+            height: 50px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section-header h2 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        .section p {
+            margin-left: 65px;
+            text-align: justify;
+        }
+        
+        .section ul {
+            margin-left: 85px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .section ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        .section ul li::before {
+            content: "\f058"; /* Font Awesome check-circle icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: #007BFF;
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+
+        /* --- Link and Footer --- */
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
         .footer {
             text-align: center;
-            margin-top: 30px;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
             font-size: 0.9em;
-            color: #777;
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+
+<div class="container">
+    <div class="header">
+        <div class="icon"><i class="fas fa-shield-halved"></i></div>
         <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> August 22, 2025</p>
-
-        <p>This Privacy Policy describes how the "Sheekh Xasan Gaab Tafseer" application ("we") handles your information. Our commitment is to protect your privacy. This app is designed to be a simple, offline-first audio player and does not collect any of your personal data.</p>
-
-        <h2>Information We Collect</h2>
-        <p>The "Sheekh Xasan Gaab Tafseer" application **does not collect, store, or transmit any personally identifiable information** from its users. All data related to your usage of the app is stored locally on your device and is never sent to us or any third party.</p>
-        <p>The only data stored on your device by the app includes:</p>
-        <ul>
-            <li><strong>Downloaded Audio Files:</strong> When you download or stream an audio file, it is saved to your device's local storage to enable offline playback.</li>
-            <li><strong>User Preferences:</strong> We store simple preferences, such as whether you have seen the welcome screen, a list of your favorite tracks, and the last audio file you played. This information is stored only on your device to improve your user experience.</li>
-        </ul>
-
-        <h2>How We Use Information</h2>
-        <p>Since we do not collect any personal information, we do not use it for any purpose. The locally stored data is used solely for the core functionality of the app, such as:</p>
-        <ul>
-            <li>Providing offline access to audio lectures.</li>
-            <li>Allowing you to manage your favorite lectures.</li>
-            <li>Enabling you to resume playback from where you left off.</li>
-        </ul>
-
-        <h2>Permissions</h2>
-        <p>The app may request the following permissions to function correctly:</p>
-        <ul>
-            <li><strong>Internet:</strong> This permission is required to stream and download the audio files from the online source.</li>
-            <li><strong>Storage (Read/Write):</strong> This permission is required to save the downloaded audio files to your device for offline access.</li>
-        </ul>
-
-        <h2>Data Security</h2>
-        <p>All data, including downloaded audio files and preferences, is stored securely within the application's private directory on your device. This data is not accessible by other applications and is not transmitted over the internet.</p>
-
-        <h2>Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the app. You are advised to review this Privacy Policy periodically for any changes.</p>
-
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, you can contact us via the developer contact information provided on the Google Play Store listing.</p>
-
-        <div class="footer">
-            <p>&copy; 2025 Sheekh Xasan Gaab Tafseer App</p>
-        </div>
+        <p>for <strong>Sheekh Xasan Gaab Tafsiir</strong></p>
     </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-info"></i></div>
+            <h2>Introduction</h2>
+        </div>
+        <p>
+            Welcome to Sheekh Xasan Gaab Tafsiir. This Privacy Policy explains how we collect, use, and disclose information from and about you when you use our mobile application. Your privacy is important to us, and we are committed to protecting it.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-database"></i></div>
+            <h2>Information We Collect</h2>
+        </div>
+        <p>
+            Our app is designed to be simple and focused on providing you with religious content. We do not require you to create an account or provide any direct personally identifiable information (like your name or email address). The information we collect is limited and primarily for functional and advertising purposes.
+        </p>
+        <ul>
+            <li><strong>Usage Data:</strong> We automatically collect certain information through our third-party service providers, such as Google AdMob. This includes your device's advertising ID, IP address, device type, and interactions with ads.</li>
+            <li><strong>Locally Stored Data:</strong> The app stores some data directly on your device for a better user experience. This data is not sent to us. This includes your list of favorite audio files, downloaded audio files, and your last played track.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-cogs"></i></div>
+            <h2>How We Use Your Information</h2>
+        </div>
+        <p>
+            The information collected is used for the following purposes:
+        </p>
+         <ul>
+            <li><strong>To Provide and Maintain the Service:</strong> To allow you to download audio files for offline listening and save your favorites.</li>
+            <li><strong>To Support the App:</strong> To display advertisements which help us keep the application free for everyone. The data collected by our ad provider (Google AdMob) is used to show you more relevant ads.</li>
+            <li><strong>To Improve User Experience:</strong> To understand how our app is used so we can improve its features and performance.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-users"></i></div>
+            <h2>Third-Party Services</h2>
+        </div>
+        <p>
+            We use Google AdMob as our advertising partner. AdMob is a third-party service that may collect and use information as described in its own privacy policy. We encourage you to review their policy to understand their data practices.
+        </p>
+        <ul>
+           <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-child"></i></div>
+            <h2>Children's Privacy</h2>
+        </div>
+        <p>
+            This application is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-edit"></i></div>
+            <h2>Changes to This Privacy Policy</h2>
+        </div>
+        <p>
+            We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
+        </p>
+    </div>
+    
+    <div class="section">
+        <div class="section-header">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <h2>Contact Us</h2>
+        </div>
+        <p>
+            If you have any questions about this Privacy Policy, please contact us at:
+            <a href="mailto:jakatoon.dp@gmail.com">jakatoon.dp@gmail.com</a>
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Last updated: September 25, 2025</p>
+    </div>
+</div>
+
 </body>
 </html>
